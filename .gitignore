@@ -1,0 +1,28 @@
+# Local samples, credentials and application state
+*.exe
+*.dll
+*.pdb
+*.key
+*.pfx
+*.p12
+*.pem
+.env
+.env.*
+license.dat
+captbot.json
+calib.json
+servers.json
+telemetry.queue
+*.log
+
+# Build output and local editor state
+bin/
+obj/
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+
+# Repeated local analysis exports
+scratch/
